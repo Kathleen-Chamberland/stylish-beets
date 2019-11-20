@@ -1,0 +1,16 @@
+h1 {
+font-size: 1.5rem;
+font-family: PT Sans;
+color: #3f1622
+}
+
+nav ol {
+  font-size: 1.125rem
+  color: #8f2440;
+
+}
+
+html {
+  background-color: #c9b5ab;
+  line-height: 1.5;
+}
