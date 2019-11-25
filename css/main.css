@@ -17,3 +17,34 @@ h2-h1 {
   color: #3f1622;
   font-size: 1.5rem;
 }
+
+header-h2{
+  font-family: sans-serif;
+}
+
+figcaption{
+  text-align: center;
+  font-size: 1rem
+}
+
+img {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+ul li {
+  list-style-type: circle;
+}
+
+a {
+  text-decoration: none;
+  color: #8f2440;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #3f1622;
+}
