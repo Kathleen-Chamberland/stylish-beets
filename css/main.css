@@ -4,3 +4,16 @@ html {
   color: #222
   font-family: serif;
 }
+
+nav ol {
+  font-size: 1.125rem;
+}
+
+main {
+  font-size: 1rem
+}
+
+h2-h1 {
+  color: #3f1622;
+  font-size: 1.5rem;
+}
