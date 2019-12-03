@@ -3,9 +3,10 @@ html {
   line-height: 1.5;
   color: #222;
   font-family: "PT Serif", serif;
+  font-weight: normal;
 }
 
-nav ol {
+nav > ol {
   font-size: 1.125rem;
 }
 
@@ -13,10 +14,20 @@ main {
   font-size: 1rem;
 }
 
-h2,
-h1 {
+footer, aside {
+  font-size: .8rem;
+}
+
+.biggerparagraph {
+  font-size: 1.125rem;
+}
+
+h1, h2 {
   color: #3f1622;
   font-size: 1.5rem;
+}
+
+header, h2 {
   font-family: "PT Sans", sans-serif;
 }
 
@@ -33,6 +44,18 @@ img {
   padding-bottom: 5px;
 }
 
+blockquote:nth-of-type(1) {
+  font-size: 1.5rem;
+}
+
+.nostyle {
+  list-style-type: none;
+}
+
+.greekalphabet {
+  list-style-type: lower-greek;
+}
+
 ul li {
   list-style-type: circle;
 }
@@ -45,14 +68,4 @@ a {
 a:hover {
   text-decoration: none;
   color: #3f1622;
-}
-
-header nav ol {
-  list-style-type: none;
-  font-weight: bold;
-  font-family: "PT Sans", sans-serif;
-}
-
-.bold {
-  font-weight: normal;
 }
